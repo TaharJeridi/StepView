@@ -1,0 +1,33 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/stepViewBackground">
+        <shape>
+            <gradient
+                android:startColor="@android:color/holo_purple"
+                android:endColor="@android:color/holo_purple"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+
+    <item android:id="@+id/stepViewSecondaryProgressDrawable">
+        <clip>
+            <shape>
+                <gradient
+                    android:startColor="@android:color/darker_gray"
+                    android:endColor="@android:color/darker_gray"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@+id/stepViewProgressDrawable">
+        <clip>
+            <shape>
+                <gradient
+                    android:startColor="@android:color/holo_red_dark"
+                    android:endColor="@android:color/holo_red_dark"
+                    android:angle="@android:color/holo_red_dark" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StepView">
+        <attr name="step_view_margin_start" format="dimension"/>
+        <attr name="step_view_margin_end" format="dimension"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootItemStep"
+    android:layout_width="@dimen/min_width_item_step_view"
+    android:layout_height="@dimen/min_width_item_step_view">
+
+    <LinearLayout
+        android:id="@+id/containerItemStepSeekBar"
+        android:layout_width="@dimen/min_width_item_step_view"
+        android:layout_height="@dimen/min_width_item_step_view"
+        android:background="@drawable/item_step_progressbar_circle"
+        android:clipChildren="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <it.tjeridi.stepview.RoundedView
+        android:id="@+id/itemStepSeekBarSolidView"
+        android:layout_width="@dimen/solid_view_min_width_item_progress_bar"
+        android:layout_height="@dimen/solid_view_min_width_item_progress_bar"
+        android:background="@drawable/item_step_solid_progressbar_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:radiusRoundedView="@dimen/radius_item_step_view" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

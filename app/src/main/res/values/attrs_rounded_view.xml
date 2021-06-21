@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundedView">
+        <attr name="topRoundedViewStartRadius" format="dimension" />
+        <attr name="topRoundedViewEndRadius" format="dimension" />
+        <attr name="bottomRoundedViewStartRadius" format="dimension" />
+        <attr name="bottomRoundedViewEndRadius" format="dimension" />
+        <attr name="radiusRoundedView" format="dimension" />
+    </declare-styleable>
+
+</resources>

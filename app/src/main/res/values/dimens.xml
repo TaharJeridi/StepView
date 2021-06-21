@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="solid_view_min_width_item_progress_bar">10dp</dimen>
+    <dimen name="radius_item_step_view">20dp</dimen>
+    <dimen name="min_width_item_step_view">20dp</dimen>
+    <dimen name="min_margin_width_item_step_progress_bar">15dp</dimen>
+    <dimen name="stroke_unselected_width">2dp</dimen>
+    <dimen name="default_drawable_stroke">1dp</dimen>
+</resources>
