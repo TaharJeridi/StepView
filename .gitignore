@@ -22,7 +22,6 @@ out/
 # Gradle files
 .gradle/
 build/
-gradle/wrapper
 gradlew
 gradlew.bat
 
